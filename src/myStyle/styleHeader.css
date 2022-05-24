@@ -1,0 +1,67 @@
+.header_0{
+    background-color: #023047;
+    height: 50px;
+    width: 1520px;
+
+}
+.img_info{
+    margin-left: 285px;
+    margin-right: 19px;
+    margin-top: 12px;
+}
+.img_ellipse{
+    margin-top: 16px;
+    margin-right: 15px;
+
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.img_about{
+    margin-top: 12px;
+    
+}
+.img_ellipse1{
+    margin-left: 14px;
+    margin-top: 16px;
+    margin-right: 15px;
+}
+
+.icon_he {
+    position: absolute;
+    margin-left: 100px;
+    color: #ffffff;
+
+    
+
+
+}
+
+.icon_he li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+
+.icon1_he {
+    position: absolute;
+    color: #ffffff;
+
+    
+
+
+}
+
+.icon1_he li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+

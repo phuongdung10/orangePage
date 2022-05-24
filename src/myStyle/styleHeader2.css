@@ -1,0 +1,41 @@
+.header_2{
+    background-color: #F77E2E;
+    height: 50px;
+    width: 1520px;
+   
+    
+} 
+.img_text2{
+    margin-left: 100px;
+    margin-top: 17px;
+}
+.img1_text2{
+    margin-top: 50px;
+}
+.img2_text2{
+    margin-left: 1470px;
+}
+.img3_text2{
+    margin-left: 1475px;
+    margin-top: 25px;
+}
+.logo_header2{
+    margin-left: 1450px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1BD741;
+    
+}
+
+.icon_header2 i{
+    position: absolute; 
+    margin-top: 13px;
+    margin-left: 13px;
+  
+}
+.logo1_header2{
+    position: absolute; 
+    margin-left: 8px;
+    margin-top: 9px;
+}

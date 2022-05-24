@@ -1,0 +1,57 @@
+
+.body7_lay{
+    position: relative;
+    margin-top: 400px;
+    padding-bottom: 100px;
+    
+}
+
+.icon_body7{
+    position: absolute;
+    width: 400px;
+    height: 160px;
+    background-color: #E5E5E5;
+    margin-left: 50px;
+}
+.icon1_body7{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-top: 49px;
+    margin-left: 50px;
+  
+  
+}
+.icon2_body7{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 140px;
+}
+.icon3_body7{
+    position: absolute;
+    margin-top: 76px;
+    margin-left: 140px;
+}
+.icon4_body7{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 14px;
+}
+.icon5_body7 i{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.icon6_body7{
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 19px;
+}
+.icon7_body7{
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 26px;
+
+}

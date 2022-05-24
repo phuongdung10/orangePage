@@ -1,0 +1,136 @@
+.body4_lay{
+    position: relative;
+    margin-top: 1250px;
+}
+.icon1_body4 {
+    position: absolute;
+}
+
+.icon2_body4 {
+    position: absolute;
+    margin-top: 162px;
+    margin-left: 36px;
+}
+
+.icon3_body4 {
+
+    position: absolute;
+    margin-top: 29px;
+    margin-left: 49px;
+}
+
+.icon4_body4 {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background-color: #D3E4E4;
+    margin-top: 67px;
+    margin-left: 233px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.triangle {
+    width: 27px;
+    height: 40px;
+    background-image:
+        linear-gradient(to bottom right, transparent 50%, #ED9D01 0);
+    /* linear-gradient(to top right, red 50%, transparent 0); */
+    /* background-size: 50% 100%; */
+    background-repeat: no-repeat;
+    background-position: left, right;
+    margin-left: 35px;
+
+
+}
+
+.icon5_body4 {
+    position: absolute;
+    margin-left: 30px;
+
+}
+
+.icon6_body4 {
+    position: absolute;
+    width: 660px;
+    height: 300px;
+
+    background-color: #82DAE7;
+    margin-left: 30px;
+    margin-top: 60px;
+
+
+}
+
+.icon7_body4 {
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 381px;
+}
+
+.icon8_body4 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+
+
+
+
+}
+
+.icon9_body4 {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 85px;
+
+}
+
+.icon10_body4 {
+    position: absolute;
+
+    box-sizing: border-box;
+    width: 163px;
+    height: 40px;
+
+
+    background: #95DE35;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-top: 247px;
+    margin-left: 151px;
+
+}
+
+.icon11_body4 {
+    position: absolute;
+    width: 78px;
+    height: 29px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Baloo Da';
+    color: #00A0AA;
+    margin-left: 45px;
+    margin-top: 5px;
+
+    /* identical to box height, or 29px */
+
+}
+
+.icon12_body4 i {
+    position: absolute;
+    margin-top: 380px;
+}
+
+.icon13_body4 {
+    position: absolute;
+    margin-top: 167px;
+    margin-left: 19px;
+}
+.icon14_body4 i{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 30px;
+
+}

@@ -1,0 +1,515 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.body6_lay {
+    position: relative;
+    margin-top: 1260px;
+}
+
+.icon_body6 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.icon1_body6 {
+    position: absolute;
+    width: 320px;
+    height: 60px;
+    background-color: #00AFAA;
+    margin-top: 100px;
+
+}
+
+.icon2_body6 {
+
+    position: absolute;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-left: 75px;
+}
+
+
+.icon3_body6 {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    background-color: #E5E5E5;
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.icon4_body6 {
+    position: absolute;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #023047;
+    margin-top: 18px;
+    margin-left: 110px;
+
+    font-weight: bold;
+}
+
+.icon5_body6 {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    background-color: #E5E5E5;
+    margin-top: 100px;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.icon6_body6 {
+    position: absolute;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #023047;
+    margin-top: 18px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.icon7_body6 {
+    position: relative;
+    margin-bottom: 1000px;
+}
+
+
+/* css 2 -----------------*/
+
+.icon24_body6 {
+    position: absolute;
+    width: 255px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-top: 200px;
+
+}
+
+.icon25_body6 {
+    position: absolute;
+
+}
+
+.icon26_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 45px;
+
+}
+
+.icon27_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 60px;
+
+}
+
+.icon28_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 75px;
+
+}
+
+.icon29_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 90px;
+
+}
+
+.icon30_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 105px;
+
+}
+
+.icon31_body6 {
+    position: absolute;
+    font-family: Urbanist;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 410px;
+    margin-left: 170px;
+
+
+}
+.icon31_1_body6 {
+    position: absolute;
+    font-family: Urbanist;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 170px;
+
+
+}
+
+.icon32_body6 {
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 25px;
+
+}
+.icon32_1_body6 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25px;
+
+}
+
+.icon33_body6 {
+    /* 30.00 SAR */
+
+
+    position: absolute;
+
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+
+    color: #023047;
+
+    opacity: 0.7;
+    margin-top: 530px;
+    margin-left: 50px;
+
+}
+.icon33_1_body6 {
+    /* 30.00 SAR */
+
+
+    position: absolute;
+
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    /* identical to box height, or 21px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+
+    color: #023047;
+
+    opacity: 0.7;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+.icon34_body6 {
+    position: absolute;
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* Red */
+
+    color: #00AFAA;
+    margin-top: 530px;
+    margin-left: 100px;
+}
+
+.icon34_1_body6 {
+    position: absolute;
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* Red */
+
+    color: #E92728;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.icon34_2_body6 {
+    position: absolute;
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* Red */
+
+    color: #E92728;
+    margin-top: 530px;
+    margin-left: 150px;
+}
+.icon35_body6 {
+    /* Louis Widmer */
+
+
+    position: absolute;
+
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color:#023047 ;
+
+    opacity: 0.7;
+    margin-top: 495px;
+    margin-left: 100px;
+}
+
+.icon36_body6 {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: #00AFAA;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.icon37_body6 {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    background-color: #F01914;
+    padding-left: 10px;
+    padding-top: 2px;
+
+
+    color: #FFFFFF;
+    margin-top: 30px;
+
+    border-radius: 2px;
+    font-size: 10px;
+}
+
+.icon38_body6 {
+    position: absolute;
+    width: 255px;
+    height: 200px;
+    background-color: #FFFFFF;
+    margin-top: 200px;
+
+}
+
+.icon39_body6 {
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: Orange;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 2px;
+    font-size: 15px;
+
+
+
+}
+
+.icon40_body6 {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    background-color: #F01914;
+    padding-left: 10px;
+    padding-top: 2px;
+
+
+    color: #FFFFFF;
+    margin-top: 30px;
+
+    border-radius: 2px;
+    font-size: 10px;
+}
+
+/* start */
+.icon41_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 45px;
+
+
+}
+
+.icon42_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 60px;
+
+
+}
+
+.icon43_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 75px;
+
+
+
+}
+
+.icon44_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 90px;
+
+
+}
+
+.icon45_body6 {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 105px;
+
+
+}
+
+.icon46_body6 i {
+    position: absolute;
+    margin-top: 90px;
+}
+
+.icon47_body6 {
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 197px;
+}
+
+.icon48_body6 {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top: 166px;
+    margin-left: 290px;
+    background-color: #F77E2E;
+
+
+}
+
+.icon49_body6 {
+    position: absolute;
+    width: 69px;
+    height: 17px;
+    left: calc(50% - 69px/2 + 0.5px);
+    top: calc(50% - 17px/2 - 0.5px);
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.icon50_body6 {
+    position: relative;
+    width: 315px;
+    height: 497px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+}
+.icon51_body6{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: #01AEAB;
+    margin-top: 170px;
+    margin-left: 30px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+.icon52_body6{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #01AEAB;
+    margin-right: 300px;
+    margin-top: 170px;
+    text-align: center;
+    color: #ffffff;
+
+}

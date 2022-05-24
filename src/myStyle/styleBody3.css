@@ -1,0 +1,150 @@
+.body3_lay{
+    position: relative;
+    margin-top: 1250px;
+}
+.icon_body3 {
+    text-align: center;
+}
+
+.icon1_body3 i {
+    position: absolute;
+    margin-top: 50px;
+
+}
+
+.icon2_body3 {
+    position: absolute;
+    padding-bottom: 900px;
+}
+
+.icon3_body3 {
+    position: absolute;
+    margin-top: 197px;
+    margin-left: 64px;
+}
+
+.icon4_body3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #7BCECE;
+    margin-top: 172px;
+    margin-left: 501px;
+}
+
+.icon5_body3 {
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-left: 7px;
+ 
+
+
+
+    background: rgba(255, 255, 255, 0.6);
+}
+.icon6_body3{
+
+position: absolute;
+
+font-family: 'Sniglet';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 120%;
+/* identical to box height, or 34px */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #00B0AF;
+margin-top: 25px;
+margin-left: 5px;
+
+
+}
+.icon7_body3{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 38px;
+}
+.icon8_body3{
+    position: absolute;
+    margin-top: 380px;
+
+}
+.icon9_body3{
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 38px;
+
+}
+.icon10_body3{
+    position: absolute;
+    width: 255px;
+    height: 200px;
+    background-color: #ffffff;
+    margin-top: 790px;
+}
+.icon11_body3{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: #F77E2E;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 2px;
+    font-size: 15px;
+
+}
+.icon12_body3{
+    position: absolute;
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    /* or 23px */
+
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* Red */
+
+    color: #00AFAA;
+    margin-top: 1130px;
+    margin-left: 100px;
+
+}
+.icon13_body3{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: #00AFAA;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.icon14_body3{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: #00AFAA;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 2px;
+    font-size: 15px;
+    margin-top:790px;
+}
+    
+
+

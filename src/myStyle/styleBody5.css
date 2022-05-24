@@ -1,0 +1,60 @@
+.body5_lay{
+    position: relative;
+    margin-top: 1050px;
+}
+.icon_body5 i{
+    position: absolute;
+    margin-top: 60px;
+
+}
+.icon1_body5{
+    position: absolute;
+   margin-left: 334px;
+}
+.icon2_body5{
+    position: absolute;
+    margin-left: 344px;
+}
+.icon3_body5{
+    position: absolute;
+    margin-top: 58px;
+    margin-left: 406px;
+
+}
+.icon4_body5{
+    position: absolute;
+    margin-top: 221px;
+    margin-left: 443px;
+
+}
+.icon5_body5{
+    position: absolute;
+    margin-top: 177px;
+    margin-left: 391px;
+
+}
+.icon6_body5 i{
+    position: absolute;
+    margin-top: 400px;
+
+}
+.icon7_body5{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 58px; 
+}
+.icon8_body5{
+    position: absolute;
+    margin-top:700px ;
+    margin-left: 200px;
+
+}
+.icon9_body5{
+    position: absolute;
+    margin-top: 340px;
+}
+.icon10_body5{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 60px;
+}

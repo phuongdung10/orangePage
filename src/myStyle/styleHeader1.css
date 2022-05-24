@@ -1,0 +1,63 @@
+.header_1{
+    height: 130 px;
+    width: 1520px;
+
+}
+.img_vector{
+    margin-top: 40px;
+    margin-left: 282px;
+}
+.img_vector1{
+    margin-left: 15px;
+  
+}
+.img_vector2{
+    margin-top: 50px;
+    margin-left: 3px;
+    margin-left: 3px;
+}
+
+.img_vector12{
+    margin-left: 105px;
+    margin-top: 10px;
+}
+.input_header1{
+    width: 545px;
+    height: 40px;
+}
+.input_button{
+    margin-top: 45px;
+    height: 40px;
+    width: 40px;
+    background-color: #F5F5F5;
+}
+.box_header1{
+    box-sizing: content-box;
+    width: 130px;
+    height: 40px;
+    background-color: #00AFAA;
+    justify-content: center ;
+
+   
+
+}
+.box1_header1{
+    box-sizing: content-box;
+    width: 170px;
+    height: 40px;
+    background-color: #00AFAA;
+    margin-left: 15px;
+    justify-content: center;
+
+}
+.icon_head1{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.icon1_head1{
+    position: absolute;
+    margin-left: 39px;
+    margin-top: 13px;
+}
+
