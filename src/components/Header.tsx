@@ -17,9 +17,6 @@ function Header() {
             <div className='header_0'>
                 <div className='row'>
                     <div className='col-sm-6'>
-
-
-
                         <ul className="icon_he">
                             <li style={{ fontSize: "14px", fontWeight: "400" }}>Info: 920006277</li>
                             <li><img src={url1} /></li>
