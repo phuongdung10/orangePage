@@ -17,7 +17,7 @@ import Footers from './components/Footers';
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <Header1 />
       <Header2 />
       <Body />
@@ -29,9 +29,9 @@ function App() {
       <Body6 />
       <Body7 />
 
-      <Footers />
+      <Footers /> */}
    
-{/* <Header2 /> */}
+<Header />
 
 
 
