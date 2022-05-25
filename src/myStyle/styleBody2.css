@@ -9,6 +9,16 @@
     text-align: center;
 
 }
+.icon1_body2:hover{
+    animation: blinker 1s linear infinite;
+    cursor: pointer;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
 
 .icon2_body2 i {
     position: absolute;
