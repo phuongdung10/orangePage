@@ -120,6 +120,11 @@
     justify-content: center;
 
 }
+.icon16_body2:hover{
+    cursor: pointer;
+    opacity: 0.5;
+
+}
 
 .icon17_body2 {
     position: absolute;
@@ -174,13 +179,18 @@
     margin-top: 120px;
     padding-left: 430px;
 }
-
+/* //box1--------------------------- */
 .icon24_body2 {
     position: absolute;
     width: 255px;
     height: 200px;
     background-color: #ffffff;
     margin-top: 790px;
+
+}
+.icon24_body2:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
 
 }
 
@@ -245,6 +255,12 @@
     margin-left: 25px;
 
 }
+.icon32_body2:hover{
+    transform: scale(0.7);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    
+}
 
 .icon33_body2 {
     /* 30.00 SAR */
@@ -274,6 +290,9 @@
     margin-left: 50px;
 
 }
+.icon33_body2:hover{
+    cursor: pointer;
+}
 
 .icon34_body2 {
     position: absolute;
@@ -294,6 +313,9 @@
     color: #E92728;
     margin-top: 1130px;
     margin-left: 150px;
+}
+.icon34_body2:hover{
+    cursor: pointer;
 }
 
 .icon35_body2 {
@@ -354,6 +376,11 @@
     height: 200px;
     background-color: #FFFFFF;
     margin-top: 790px;
+
+}
+.icon38_body2:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
 
 }
 
