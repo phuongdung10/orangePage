@@ -58,7 +58,7 @@ function Body1() {
             <div className="body1_lay">
                 <div className="icon1_body1">
                     <i>
-                        <img src={url} />
+                        <img style={{width:"1200px"}} src={url} />
                     </i>
                     <i>
                         <img className="icon2_body1" src={url1} />
