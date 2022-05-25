@@ -18,8 +18,8 @@ let url10 = `${process.env.PUBLIC_URL}/assets/Vector (3) copy.png`;
 
 function Body7() {
     return (
-        <div className="body7_lay">
-            <div className="container-xxl">
+        <div className="container-xxl">
+            <div className="body7_lay">
                 <div className="row">
                     <div className="col-sm-4">
                         <div className="icon_body7">
@@ -54,7 +54,7 @@ function Body7() {
                                     <img className="icon7_body7" src={url10} />
 
                                 </div>
-                               
+
                             </div>
                             <img className="icon2_body7" src={url7} />
                             <img className="icon3_body7" src={url6} />
@@ -62,7 +62,7 @@ function Body7() {
 
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
