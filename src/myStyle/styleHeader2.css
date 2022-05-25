@@ -1,41 +1,75 @@
-.header_2{
+.header_2 {
     background-color: #F77E2E;
     height: 50px;
     width: 1280px;
-   
-    
-} 
-.img_text2{
+
+
+}
+
+.img_center:hover {
+    transform: scale(1.1);
+
+
+}
+
+.img_text2 {
     margin-left: 40px;
     margin-top: 17px;
 }
-.img1_text2{
+
+.img_text2:hover {
+    background: #00AFAA;
+    transform: scale(2);
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+}
+
+.img1_text2 {
     margin-top: 50px;
 }
-.img2_text2{
+
+.img2_text2 {
     margin-left: 1280px;
 }
-.img3_text2{
+
+.img3_text2 {
     margin-left: 1475px;
     margin-top: 25px;
 }
-.logo_header2{
+
+.logo_header2 {
+    margin-top: 40px;
     margin-left: 1250px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     background-color: #1BD741;
-    
+
 }
 
-.icon_header2 i{
-    position: absolute; 
-    margin-top: 13px;
-    margin-left: 13px;
-  
+.logo_header2:hover {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: reverse;
 }
-.logo1_header2{
-    position: absolute; 
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:10px; top:0px;}
+    50%  {background-color:blue; left:10x; top:10px;}
+    75%  {background-color:green; left:0px; top:10px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+.icon_header2 i {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 13px;
+
+}
+
+.logo1_header2 {
+    position: absolute;
     margin-left: 8px;
     margin-top: 9px;
 }
