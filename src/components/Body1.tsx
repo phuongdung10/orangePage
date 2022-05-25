@@ -53,22 +53,18 @@ let url46 = `${process.env.PUBLIC_URL}/assets/Vector123.png`;
 
 function Body1() {
     return (
-        <div className="body1_lay">
-            <div className="container-xxl">
+
+        <div className="container-xxl">
+            <div className="body1_lay">
                 <div className="icon1_body1">
                     <i>
                         <img src={url} />
-
-
                     </i>
                     <i>
-
                         <img className="icon2_body1" src={url1} />
                         <div className="icon3_body1">
                             <img className="icon4_body1" src={url2} />
                         </div>
-
-
                     </i>
 
                     <div>
@@ -111,14 +107,9 @@ function Body1() {
                             <img className="icon19_body1" src={url17} />
                             <img className="icon20_body1" src={url16} />
 
-
-
-
-
                         </i>
 
                     </div>
-
                     <div className="icon15_body1"></div>
                     <img className="icon21_body1" src={url18} />
                     <img className="icon22_body1" src={url19} />
@@ -169,17 +160,6 @@ function Body1() {
                         </div>
                         <div className="icon58_body1"></div>
 
-
-
-
-
-
-
-
-
-
-
-
                     </div>
 
                     {/* circle */}
@@ -188,12 +168,6 @@ function Body1() {
                     <img className="icon75_body1" src={url42} />
                     <img className="icon74_body1" src={url43} />
                     <div className="icon55_body1"></div>
-
-
-
-
-
-
                     <div className="icon32_body1" >
 
                         <div className="icon35_body1"></div>
@@ -229,22 +203,6 @@ function Body1() {
                     <img className="icon47_body1" src={url34} />
                     <img className="icon50_body1" src={url38} />
                     <img className="icon51_body1" src={url39} />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
                 </div>
             </div >
