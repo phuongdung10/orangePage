@@ -16,6 +16,19 @@
     margin-bottom: 60px;
 }
 
+.icon_body6:hover {
+
+    animation: blinker 1s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
 .icon1_body6 {
     position: absolute;
     width: 320px;
@@ -203,7 +216,8 @@
     position: absolute;
     margin-top: 50px;
 }
-.icon32_body6:hover{
+
+.icon32_body6:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
     cursor: pointer;
