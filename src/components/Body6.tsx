@@ -1,8 +1,6 @@
 import React from "react";
 import "../myStyle/styleBody6.css"
 import "../myStyle/styleBody2.css"
-
-
 let url = `${process.env.PUBLIC_URL}/assets/Shop by Brands.png`;
 let url1 = `${process.env.PUBLIC_URL}/assets/avene_logo 1.png`;
 let url2 = `${process.env.PUBLIC_URL}/assets/elancyl_logo 1.png`;
@@ -21,37 +19,37 @@ let url24 = `${process.env.PUBLIC_URL}/assets/To Exchange your Prescription requ
 
 function Body6() {
     return (
-        <div className="body6_lay">
-            <div className="container-xxl">
+
+        <div className="container-xxl">
+            <div className="body6_lay">
                 <div className="icon_body6">
                     <img src={url} />
                 </div>
                 <div className="row">
-
-                    <div className="col-sm-2">
+                    <div className="col-xxl-2">
                         <i className="bi bi-chevron-left"></i>
-                        <img src={url1} />
+                        <img className="icon0_body6" src={url1} />
                     </div>
-                    <div className="col-sm-2">
-                        <img src={url2} />
+                    <div className="col-xxl-2">
+                        <img className="icon0_body6" src={url2} />
                     </div>
-                    <div className="col-sm-2">
-                        <img src={url3} />
+                    <div className="col-xxl-2">
+                        <img className="icon0_body6" src={url3} />
                     </div>
-                    <div className="col-sm-2">
-                        <img src={url4} />
+                    <div className="col-xxl-2">
+                        <img className="icon0_body6" src={url4} />
                     </div>
-                    <div className="col-sm-2">
-                        <img src={url5} />
+                    <div className="col-xxl-2">
+                        <img className="icon0_body6" src={url5} />
                     </div>
-                    <div className="col-sm-2">
-                        <img src={url6} />
+                    <div className="col-xxl-2">
+                        <img className="icon0_body6" src={url6} />
                         <i className="bi bi-chevron-right"></i>
                     </div>
 
                 </div>
                 <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-xxl-3">
                         <div className="icon1_body6">
                             <div className="icon2_body6">
                                 Seasonal highlights
@@ -60,17 +58,15 @@ function Body6() {
                         </div>
 
                     </div>
-                    <div className="col-sm-3">
+                    <div className="col-xxl-3">
                         <div className="icon3_body6">
                             <div className="icon4_body6">
                                 Popular
                             </div>
-
                         </div>
-
                     </div>
-                    <div className="col-sm-3">
-                        <div className="icon5_body6">
+                    <div className="col-xxl-3">
+                        <div className="icon3_body6">
                             <div className="icon6_body6">
                                 New products
                             </div>
@@ -78,8 +74,8 @@ function Body6() {
                         </div>
 
                     </div>
-                    <div className="col-sm-3">
-                        <div className="icon5_body6">
+                    <div className="col-xxl-3">
+                        <div className="icon3_body6">
                             <div className="icon6_body6">
                                 Recommendation
                             </div>
@@ -88,16 +84,13 @@ function Body6() {
 
                     </div>
                 </div>
-
-
                 <div className="row">
-                    <div className="col-sm-3">
+                    <div className="col-xxl-3">
                         <div className="icon24_body6">
                             <img className="icon25_body6" src={url7} />
                             <div className="icon36_body6">NEW
                             </div>
                         </div>
-
                         <img className="icon26_body6" src={url20} />
                         <img className="icon27_body6" src={url20} />
                         <img className="icon28_body6" src={url20} />
@@ -116,15 +109,13 @@ function Body6() {
 
                     </div>
                     {/* 1111--------------------------------- */}
-                    <div className="col-sm-3">
+                    <div className="col-xxl-3">
                         <div className="icon50_body6">
                             <div className="icon38_1_body6">
                                 <div className="icon39_body6">HIT</div>
                                 <div className="icon40_body6">
                                     <a>SALE - 30%</a></div>
                                 <img src={url8} />
-
-
                             </div>
                             <img src={url20} />
                             <img src={url20} />
@@ -132,7 +123,7 @@ function Body6() {
                             <img src={url20} />
                             <img src={url20} />
                             <h1 className="icon31_1_body6">40 Reviews</h1>
-                            <img className="icon32_1_body6" src={url22} />
+                            <img className="iCon_body6" src={url22} />
                             <div className="icon33_1_body6">
                                 30.00 SAR
                             </div>
@@ -149,24 +140,19 @@ function Body6() {
 
                                     </div>
                                 </div>
-                                <div className="col-sm-5">
+                                <div className="col-xxl-5">
                                     <div className="icon52_body6">
-                                    <i className="bi bi-heart"></i>
-                                        
+                                        <i className="bi bi-heart"></i>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-                    <div className="col-sm-3">
-                        <div className="icon38_body6">
+                    <div className="col-xxl-3">
+                        <div className="icon24_body6">
                             <div className="icon36_body6">NEW</div>
 
                             <img src={url9} />
-
-
                         </div>
                         <img className="icon41_body6" src={url20} />
                         <img className="icon42_body6" src={url20} />
@@ -184,8 +170,8 @@ function Body6() {
 
 
                     </div>
-                    <div className="col-sm-3">
-                        <div className="icon38_body6">
+                    <div className="col-xxl-3">
+                        <div className="icon24_body6">
                             <div className="icon39_body6">HIT</div>
                             <div className="icon40_body6">
                                 <a>SALE - 30%</a></div>
@@ -216,7 +202,7 @@ function Body6() {
                 </div>
                 <div className="icon46_body6">
                     <i>
-                        <img src={url23} />
+                        <img style={{ width: "1320px" }} src={url23} />
                     </i>
                     <i>
                         <img className="icon47_body6" src={url24} />
@@ -226,7 +212,6 @@ function Body6() {
                     </i>
                 </div>
             </div>
-
         </div>
     );
 }
