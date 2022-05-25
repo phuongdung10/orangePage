@@ -8,6 +8,9 @@
     position: absolute;
     margin-left: 40px;
 }
+.icon1_body1:hover{
+    transform: scale(1);
+}
 
 .icon2_body1 {
     margin-top: 90px;
@@ -20,6 +23,10 @@
     background-color: #F77E2E;
     margin-top: 50px;
     margin-left: 800px;
+}
+.icon3_body1:hover{
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .icon4_body1 {
@@ -157,8 +164,6 @@
     position: absolute;
     margin-top: 88px;
     margin-left: 90px;
-
-
 
 }
 
