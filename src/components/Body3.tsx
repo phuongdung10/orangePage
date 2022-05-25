@@ -19,8 +19,9 @@ let url24 = `${process.env.PUBLIC_URL}/assets/Rectangle 11 (3).png`;
 let url25 = `${process.env.PUBLIC_URL}/assets/Rectangle 11 (4).png`;
 function Body3() {
     return (
-        <div className="body3_lay">
-            <div className='container-xxl'>
+
+        <div className='container-xxl'>
+            <div className="body3_lay">
 
                 <div className="icon_body3">
                     <img src={url} />
@@ -108,19 +109,14 @@ function Body3() {
                         <div className="icon35_body2">
                             Louis Windmer
                         </div>
-
-
-
                     </div>
+                    {/* --------------------------------------- */}
                     <div className="col-sm-3">
                         <div className="icon14_body3">NEW
 
                             <div>
 
                                 <img src={url23} />
-
-
-
                             </div>
                         </div>
                         <img className="icon26_body2" src={url20} />
