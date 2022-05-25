@@ -41,7 +41,7 @@ function Header2() {
 
                 </div>
                 <div className='row-sm-3'>
-                    <img className='img_text2' src={url10} />
+                    <img style={{width:"1200px"}} className='img_text2' src={url10} />
                     <div className='logo_header2'>
                         <div className='icon_header2'>
                             <i>
