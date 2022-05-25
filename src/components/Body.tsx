@@ -85,6 +85,7 @@ function Body() {
                 <img src={url} />
             </div>
             <div className="row">
+                {/* -----------------------------------------------1 */}
                 <div className="col-sm-3">
                     <div className="icon_body">
 
@@ -163,18 +164,10 @@ function Body() {
                         <img className="icon24_body" src={url24} />
                         <img className="icon25_body" src={url25} />
                         <img className="icon26_body" src={url26} />
-
-
-
-
-
-
                         <img className="icon4_body" src={url5} />
-
-
-
                     </div>
                 </div>
+                {/* ---------------------------------------2 */}
 
                 <div className="col-sm-3">
                     <div className="icon27_body">
@@ -291,12 +284,12 @@ function Body() {
                             <img className="icon77_body" src={url61} />
                             <img className="icon78_body" src={url63} />
                             <span className="color1_body">
-                            <svg xmlns="http://www.w3.org/2000/svg"
-                                width="22" height="22" fill="currentColor" className="bi bi-plus-lg" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
-                            </svg>
-                        </span>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="22" height="22" fill="currentColor" className="bi bi-plus-lg" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z" />
+                                </svg>
+                            </span>
 
 
 
