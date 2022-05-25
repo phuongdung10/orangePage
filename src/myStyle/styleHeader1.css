@@ -2,12 +2,12 @@
 
 .header_1{
     height: 130 px;
-    width: 1280px;
+    width: 1320px;
 
 }
 .img_vector{
     margin-top: 40px;
-    margin-left: 240px;
+    margin-left: 100px;
 }
 .img_vector1{
     margin-left: 15px;
@@ -46,6 +46,7 @@
     animation-delay: 0.3s;
     transform: scale(0.8);
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 .box1_header1{
     box-sizing: content-box;
@@ -53,6 +54,7 @@
     height: 40px;
     background-color: #00AFAA;
     justify-content: center;
+    margin-left: 30px;
 
 }
 .box1_header1:hover{
@@ -60,6 +62,7 @@
     animation-delay: 0.3s;
     transform: scale(0.8);
     transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .icon_head1{
