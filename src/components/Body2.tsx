@@ -35,8 +35,8 @@ let url26 = `${process.env.PUBLIC_URL}/assets/Rectangle 11 (2).png`;
 
 function Body2() {
     return (
-        <div className="body2_lay">
         <div className="container-xxl">
+        <div className="body2_lay">
             <div className="icon1_body2">
                 <img src={url} />
             </div>
@@ -64,6 +64,7 @@ function Body2() {
                     </div>
                 </div>
             </div>
+            {/* -------------------------------------------- */}
             <div className="row">
                 <div className="col-sm-6">
                     <div className="icon11_body2">
