@@ -20,8 +20,8 @@ let url10 = `${process.env.PUBLIC_URL}/assets/mada.png`;
 
 function Footers() {
     return (
-        <div className="foo_lay">
-            <div className="container-xxl">
+            <div className="container-lg">
+                 <div className="foo_lay">
                 <div className="icon1_foo">
                     <div className="row">
                         <div className="col-lg-3">
@@ -63,14 +63,14 @@ function Footers() {
                                 <li style={{ fontWeight: '500' }}>Get the App</li>
                                 <li>
 
-                                    <img style={{ width: "135px" }} src={url3} />
+                                    <img className="ho_iconFoo" style={{ width: "135px" }} src={url3} />
 
 
 
 
                                 </li>
                                 <li>
-                                    <img style={{ width: "135px" }} src={url4} />
+                                    <img className="ho_iconFoo" style={{ width: "135px" }} src={url4} />
                                 </li>
                             </ul>
                         </div>
