@@ -41,7 +41,9 @@ function Header2() {
 
                 </div>
                 <div className='row-xxl-3'>
-                    <img className='img_center' style={{ width: "1200px", marginLeft: "40px", marginTop: "17px" }} src={url10} />
+                    {/* ///Picture--------------- */}
+                    <img className='img_center' style={{ width: "1200px", marginLeft: "40px", 
+                    marginTop: "17px" }} src={url10} />
                     <div className='logo_header2'>
                         <div className='icon_header2'>
                             <i>
