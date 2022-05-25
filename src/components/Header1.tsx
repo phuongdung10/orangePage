@@ -57,7 +57,7 @@ function Header1() {
                     <div className="input-group mb-3">
                         <input type="text" className="form-control" placeholder="Seach for a product, brand, category..."
                             aria-describedby="basic-addon5" />
-                        <span className="input-group-text" id="basic-addon5"><img src={url22} /></span>
+                        <span className="input-group-text" id="basic-addon5"><button><i className="bi bi-search"></i></button></span>
                     </div>
                 </div>
                 <div className='col-sm-2'>
