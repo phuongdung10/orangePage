@@ -82,7 +82,7 @@ function Body() {
     return (
         <div className="container-xxl">
             <div className="body_1">
-                <img src={url} />
+                <img className="text_body1" src={url} />
             </div>
             <div className="row">
                 {/* -----------------------------------------------1 */}
@@ -192,13 +192,8 @@ function Body() {
                                 <i>
                                     <img className="icon36_body" src={url35} />
                                 </i>
-
-
                             </div>
-
-
                         </i>
-
                         <img className="icon29_body" src={url29} />
                         <img className="icon30_body" src={url30} />
                         <img className="icon37_body" src={url36} />
