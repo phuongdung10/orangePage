@@ -1,27 +1,24 @@
 .header_2 {
     background-color: #F77E2E;
     height: 50px;
-    width: 1280px;
-
+    width: 1320px;
 
 }
 
 .img_center:hover {
-    transform: scale(1.1);
-
-
+    transform: scale(1.01);
 }
-
 .img_text2 {
     margin-left: 40px;
     margin-top: 17px;
 }
 
 .img_text2:hover {
-    background: #00AFAA;
+    background: rgb(233, 174, 66);
     transform: scale(2);
     transition-duration: 0.5s;
     transition-delay: 0.3s;
+    cursor: pointer;
 }
 
 .img1_text2 {
@@ -53,13 +50,38 @@
     animation-duration: 4s;
     animation-direction: reverse;
 }
+
 @keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:10px; top:0px;}
-    50%  {background-color:blue; left:10x; top:10px;}
-    75%  {background-color:green; left:0px; top:10px;}
-    100% {background-color:red; left:0px; top:0px;}
-  }
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 10px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 10x;
+        top: 10px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 10px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
 
 .icon_header2 i {
     position: absolute;
