@@ -3,8 +3,15 @@
     margin-top: 40px;
 }
 .text_body1:hover{
-    background-color: #F7B100;
+    animation: blinker 1s linear infinite;
+
 }
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 
 
 .icon_body i {
