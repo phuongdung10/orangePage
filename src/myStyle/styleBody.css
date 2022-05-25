@@ -4,6 +4,7 @@
 }
 .text_body1:hover{
     animation: blinker 1s linear infinite;
+    cursor: pointer;
 
 }
 
