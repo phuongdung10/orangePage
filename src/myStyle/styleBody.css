@@ -1,19 +1,23 @@
 .body_1 {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 40px;
 }
+.text_body1:hover{
+    background-color: #F7B100;
+}
+
 
 .icon_body i {
     position: absolute;
     margin-top: 80px;
     margin-left: 60px;
 }
-.icon_body:hover{
+/* .icon_body:hover{
     transform: scale(1.1);
     transition-duration: 0.5s;
     transition-delay: 0.3s;
 
-}
+} */
 
 .icon1_body {
     position: absolute;
@@ -161,6 +165,24 @@
     margin-top: 70px;
     margin-left: 130px;
 
+
+}
+.icon27_body:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+
+}
+.icon49_body:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+
+}
+.icon74_body:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
 
 }
 
