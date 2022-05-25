@@ -11,7 +11,14 @@
     width: 400px;
     height: 160px;
     background-color: #E5E5E5;
-    margin-left: 50px;
+    margin-left: 30px;
+}
+.icon_body7:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    background-color: aquamarine;
+    cursor: pointer;
+
 }
 .icon1_body7{
     position: absolute;
