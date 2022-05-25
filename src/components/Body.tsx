@@ -86,11 +86,10 @@ function Body() {
             </div>
             <div className="row">
                 {/* -----------------------------------------------1 */}
-                <div className="col-sm-3">
+                <div className="col-xxl-3">
                     <div className="icon_body">
 
                         <i>
-
                             <img src={url1} />
 
                         </i>
@@ -169,7 +168,7 @@ function Body() {
                 </div>
                 {/* ---------------------------------------2 */}
 
-                <div className="col-sm-3">
+                <div className="col-xxl-3">
                     <div className="icon27_body">
                         <i>
                             <img src={url27} />
@@ -221,7 +220,7 @@ function Body() {
                         <img src={url47} />
                     </div>
                 </div>
-                <div className="col-sm-3">
+                <div className="col-xxl-3">
                     <div className="icon49_body">
                         <i>
                             <img src={url48} />
@@ -269,7 +268,7 @@ function Body() {
                     </div>
 
                 </div>
-                <div className="col-sm-3">
+                <div className="col-xxl-3">
                     <div className="icon74_body">
                         <i>
                             <img src={url59} />
@@ -320,15 +319,8 @@ function Body() {
                     <div>
                         <img className="icon95_body" src={url22} />
                     </div>
-
-
-
                 </div>
             </div>
-
-
-
-
         </div>
     );
 }
