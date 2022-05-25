@@ -1,6 +1,6 @@
 import React from 'react';
 import "../myStyle/styleHeader1.css";
-
+import { Container, Row, Col, ThemeProvider } from 'react-bootstrap';
 
 
 let url = `${process.env.PUBLIC_URL}/assets/vector.png`;
@@ -33,64 +33,66 @@ let url26 = `${process.env.PUBLIC_URL}/assets/Wishlist.png`;
 
 function Header1() {
     return (
-        <div className='container-fluid'>
-            <div className='img_vector'>
-                <div className='row'>
-                    <div className='col-xxl-3'>
-                        <img src={url} />
-                        <img className="img_vector1" src={url1} />
-                        <img src={url2} />
-                        <img src={url3} />
-                        <img src={url4} />
-                        <img src={url5} />
-                        <img src={url6} />
-                        <img src={url7} />
-                        <img src={url8} />
-                        <img src={url9} />
-                        <img src={url10} />
-                        <img src={url11} />
-                    </div>
+        <ThemeProvider>
+        <Container>
+            <Row className="justify-content-md-center">
+                <Col xs lg="2" className='img_vector1'>
+                    <img src={url} />
+                    <img src={url1} />
+                    <img src={url2} />
+                    <img src={url3} />
+                    <img src={url4} />
+                    <img src={url5} />
+                    <img src={url6} />
+                    <img src={url7} />
+                    <img src={url8} />
+                    <img src={url9} />
+                    <img src={url10} />
+                    <img src={url11} />
+                </Col>
 
 
-                    <div className='col-xxl-5'>
-                        <div className="input-group mb-3">
-                            <input type="text" className="form-control" placeholder="Seach for a product, brand, category..."
-                                aria-describedby="basic-addon5" />
-                            <span className="input-group-text" id="basic-addon5"><button><i className="bi bi-search"></i></button></span>
-                        </div>
+                <Col>
+                    <div className="input-group mb-3">
+                        <input type="text" className="form-control" placeholder="Seach for a product, brand, category..."
+                            aria-describedby="basic-addon5" />
+                        <span className="input-group-text" id="basic-addon5"><button><i className="bi bi-search"></i></button></span>
                     </div>
-                    <div className='col-xxl-1'>
-                        <div className='box_header1'>
-                            <img className="icon_head1" src={url23} />
-                            <img className="icon1_head1" src={url26} />
-                        </div>
+                </Col>
+                <Col>
+                    <div className='box_header1'>
+                        <img className="icon_head1" src={url23} />
+                        <img className="icon1_head1" src={url26} />
                     </div>
-                    <div className='col-xxl-3'>
-                        <div className='box1_header1'>
-                            <img className="icon_head1" src={url24} />
-                            <img className="icon1_head1" src={url25} />
+                </Col>
+                <Col>
+                    <div className='box1_header1'>
+                        <img className="icon_head1" src={url24} />
+                        <img className="icon1_head1" src={url25} />
 
-                        </div>
                     </div>
+                </Col>
+            </Row>
+
+            <Row>
+                <div className='col-xxl-3; img_vector12'>
+                    <img src={url12} />
+                    <img src={url13} />
+                    <img src={url14} />
+                    <img src={url15} />
+                    <img src={url16} />
+                    <img src={url17} />
+                    <img src={url18} />
+                    <img src={url19} />
+                    <img src={url20} />
+                    <img src={url21} />
 
                 </div>
-                <div className='row'>
-                    <div className='col-xxl-3; img_vector12'>
-                        <img src={url12} />
-                        <img src={url13} />
-                        <img src={url14} />
-                        <img src={url15} />
-                        <img src={url16} />
-                        <img src={url17} />
-                        <img src={url18} />
-                        <img src={url19} />
-                        <img src={url20} />
-                        <img src={url21} />
 
-                    </div>
-                </div>
-            </div>
-        </div>
+            </Row>
+
+        </Container >
+        </ThemeProvider>
 
 
 
