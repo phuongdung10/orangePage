@@ -6,7 +6,27 @@
 }
 
 .img_center:hover {
-    transform: scale(1.01);
+    position: relative;
+    -webkit-animation: floatBubble 2s infinite  normal ease-out;
+    animation: floatBubble 2s infinite  normal ease-out;
+}
+
+
+@-webkit-keyframes floatBubble {
+    0% {
+        top:200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+@keyframes floatBubble {
+    0% {
+        top:200px;
+    }
+    100% {
+        top: 0px;
+    }
 }
 .img_text2 {
     margin-left: 40px;
