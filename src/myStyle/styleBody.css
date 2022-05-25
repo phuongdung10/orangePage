@@ -8,6 +8,12 @@
     margin-top: 80px;
     margin-left: 60px;
 }
+.icon_body:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+
+}
 
 .icon1_body {
     position: absolute;
