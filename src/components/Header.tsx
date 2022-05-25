@@ -1,5 +1,6 @@
 import React from 'react'
 import '../myStyle/styleHeader.css'
+import { Container } from "react-bootstrap";
 
 
 let url = `${process.env.PUBLIC_URL}/assets/Info_ 920006277.png`;
@@ -8,13 +9,15 @@ let url2 = `${process.env.PUBLIC_URL}/assets/Ellipse 2.png`;
 let url3 = `${process.env.PUBLIC_URL}/assets/About.png`;
 let url4 = `${process.env.PUBLIC_URL}/assets/Branches.png`;
 let url5 = `${process.env.PUBLIC_URL}/assets/ar 1.png`;
+// ---------------------------------------------------------
 
 
 
 function Header() {
     return (
-        <div className="container-fluid">
-            <div className='header_0'>
+        <div className='header_0'>
+        <Container className="themed-container" fluid={true}>
+            
                 <div className='row'>
                     <div className='col-sm-6'>
                         <ul className="icon_he">
@@ -47,7 +50,8 @@ function Header() {
 
 
 
-            </div>
+        
+        </Container>
         </div>
 
     );
