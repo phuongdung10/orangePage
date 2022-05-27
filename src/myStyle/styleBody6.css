@@ -529,17 +529,12 @@
     width: 160px;
     height: 40px;
     background-color: #01AEAB;
-    margin-top: 150px;
-    margin-left: 30px;
+    margin-top: 170px;
+    margin-left: 80px;
     color: #FFFFFF;
     text-align: center;
-
-}
-
-.icon51_body6:hover {
-    transform: scale(1.2);
-    transition-duration: 0.5s;
-    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 5px;
 
 }
 
@@ -548,16 +543,12 @@
     width: 40px;
     height: 40px;
     background-color: #01AEAB;
-    margin-right: 300px;
-    margin-top: 150px;
+    margin-top: 170px;
+    margin-left: 50px;
     text-align: center;
     color: #ffffff;
+    padding-left: 12px;
+    padding-top: 7px;
 
 }
 
-.icon52_body6:hover {
-    transform: scale(1.3);
-    transition-duration: 0.5s;
-    cursor: pointer;
-
-}
