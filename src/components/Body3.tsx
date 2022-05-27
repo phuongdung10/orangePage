@@ -1,5 +1,6 @@
 import React from 'react';
 import "../myStyle/styleBody3.css";
+import "../myStyle/styleBody2.css";
 import "./Body2";
 
 
@@ -17,10 +18,11 @@ let url22 = `${process.env.PUBLIC_URL}/assets/Sun Protection face lorem ipsum Si
 let url23 = `${process.env.PUBLIC_URL}/assets/Rectangle 11 (2) 2.png`;
 let url24 = `${process.env.PUBLIC_URL}/assets/Rectangle 11 (3).png`;
 let url25 = `${process.env.PUBLIC_URL}/assets/Rectangle 11 (4).png`;
+
+
 function Body3() {
     return (
-
-        <div className='container-xxl'>
+     <div className='container-xxl'>
             <div className="body3_lay">
 
                 <div className="icon_body3">
@@ -84,13 +86,18 @@ function Body3() {
                 </div>
                 <div className='row'>
                     <div className="col-sm-3">
-
-                        <div className="icon24_body2">
-                            <img className="icon25_body2" src={url19} />
+                    <div className="icon24_body2">
                             <div className="icon36_body2">HIT</div>
                             <div className="icon37_body2">
                                 <a>SALE - 30%</a></div>
 
+                            <img src={url19} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
+
+
+                            </div>
 
                         </div>
                         <img className="icon26_body2" src={url20} />
@@ -112,13 +119,19 @@ function Body3() {
                     </div>
                     {/* --------------------------------------- */}
                     <div className="col-sm-3">
-                        <div className="icon14_body3">NEW
+                    <div className="icon24_body2">
+                            <div className="icon14_body3">NEW</div>
 
-                            <div>
+                            <img src={url23} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
 
-                                <img src={url23} />
+
                             </div>
+
                         </div>
+                    
                         <img className="icon26_body2" src={url20} />
                         <img className="icon27_body2" src={url20} />
                         <img className="icon28_body2" src={url20} />
@@ -138,15 +151,22 @@ function Body3() {
 
                     </div>
                     <div className="col-sm-3">
-
-                        <div className="icon24_body2">
-                            <img className="icon25_body2" src={url24} />
+                    <div className="icon24_body2">
                             <div className="icon36_body2">HIT</div>
                             <div className="icon37_body2">
                                 <a>SALE - 30%</a></div>
 
+                            <img src={url24} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
+
+
+                            </div>
 
                         </div>
+
+                 
                         <img className="icon26_body2" src={url20} />
                         <img className="icon27_body2" src={url20} />
                         <img className="icon28_body2" src={url20} />
@@ -168,14 +188,21 @@ function Body3() {
 
                     </div>
                     <div className="col-sm-3">
-
-                        <div className="icon24_body2">
-                            <img className="icon25_body2" src={url25} />
+                    <div className="icon24_body2">
                             <div className="icon13_body3">NEW</div>
+                           
+
+                            <img src={url25} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
 
 
+                            </div>
 
                         </div>
+
+                    
                         <img className="icon26_body2" src={url20} />
                         <img className="icon27_body2" src={url20} />
                         <img className="icon28_body2" src={url20} />
