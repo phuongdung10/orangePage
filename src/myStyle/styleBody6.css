@@ -7,8 +7,6 @@
 
 .icon0_body6:hover {
     cursor: pointer;
-    transform: scale(1.4);
-    transition-duration: 0.5s;
 }
 
 .icon_body6 {
@@ -17,31 +15,24 @@
 }
 
 .icon_body6:hover {
-
-    animation: blinker 1s linear infinite;
     cursor: pointer;
 }
 
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
 
 
 .icon1_body6 {
     position: absolute;
     width: 320px;
     height: 60px;
-    background-color: #00AFAA;
+    background-color: #E5E5E5;
     margin-top: 100px;
 
 }
 
 .icon1_body6:hover {
     cursor: pointer;
-    transform: scale(0.8);
-    transition-duration: 0.5s;
+    background-color: #00AFAA;
+
 }
 
 
@@ -57,7 +48,7 @@
     line-height: 21px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: black;
     margin-top: 18px;
     margin-left: 75px;
 }
@@ -77,8 +68,8 @@
 
 .icon3_body6:hover {
     cursor: pointer;
-    transform: scale(0.8);
-    transition-duration: 0.5s;
+    background-color: #00AFAA;;
+
 }
 
 .icon4_body6 {
@@ -130,11 +121,41 @@
 }
 
 .icon24_body6:hover {
-    transform: scale(1.3);
-    transition-duration: 0.5s;
-    cursor: pointer;
+    position: block;
+    width: 315px;
+    height: 497px;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.1);
+    cursor:point;
+
 
 }
+.overlay {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 90px;
+    opacity: 0;
+    transition: .3s ease;
+    cursor: point;
+    
+  
+
+}
+.icon24_body6:hover .overlay {
+    opacity: 0.9;
+  }
+  .icon {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, -100%);
+    -ms-transform: translate(-100%, -100%);
+    text-align: center;
+  }
+  
 
 .icon25_body6 {
     position: absolute;
@@ -468,7 +489,7 @@
 
 .icon46_body6 i {
     position: absolute;
-    margin-top: 90px;
+    margin-top: 670px;
 }
 
 .icon47_body6 {
