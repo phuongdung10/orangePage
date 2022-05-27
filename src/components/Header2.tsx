@@ -1,5 +1,6 @@
 import React from 'react';
 import "../myStyle/styleHeader2.css";
+import {Container} from 'react-bootstrap'
 
 let url = `${process.env.PUBLIC_URL}/assets/Offers.png`;
 let url1 = `${process.env.PUBLIC_URL}/assets/Medications.png`;
@@ -20,13 +21,11 @@ let url13 = `${process.env.PUBLIC_URL}/assets/Vector27.png`;
 
 function Header2() {
     return (
-        <div className="container-fluid">
+        <div className='header_2'>
+            <Container fluid>
 
             <div className='col'>
-                <div className='row-xxl-3; header_2'>
-
-
-
+                <div className='row-xl-3'>
                     <img className='img_text2' src={url} />
                     <img className='img_text2' src={url2} />
                     <img className='img_text2' src={url1} />
@@ -44,7 +43,7 @@ function Header2() {
                     {/* ///Picture--------------- */}
                     <img className='img_center' style={{ width: "1200px", marginLeft: "40px", 
                     marginTop: "17px" }} src={url10} />
-                    <div className='logo_header2'>
+                    {/* <div className='logo_header2'>
                         <div className='icon_header2'>
                             <i>
                                 <img src={url13} />
@@ -54,9 +53,10 @@ function Header2() {
                             </i>
 
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
+            </Container>
         </div>
     );
 }
