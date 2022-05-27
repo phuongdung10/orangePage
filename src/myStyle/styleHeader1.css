@@ -4,22 +4,21 @@
     height: 130px;
     width: 1320px;
     margin-top: 100px;
-
 }
-/* .img_vector{
-    margin-top: 40px;
-    margin-left: 100px;
-} */
+.img_vector{
+    margin-left:50px;
+}
+
 .img_vector1{
-    margin-left: 15px;
-    margin-top: 50px;
-  
+    margin-top: 80px;  
+}
+.input_head{
+    padding-right: 100px;
 }
 .img_vector2{
     margin-top: 50px;
     margin-left: 3px;
 }
-
 .img_vector12{
     margin-left: 90px;
 }
@@ -39,9 +38,6 @@
     height: 40px;
     background-color: #00AFAA;
     justify-content: center ;
-
-   
-
 }
 .box_header1:hover{
     opacity:0.7;
@@ -56,7 +52,6 @@
     height: 40px;
     background-color: #00AFAA;
     justify-content: center;
-    margin-left: 30px;
 
 }
 .box1_header1:hover{
@@ -66,7 +61,6 @@
     transition-duration: 0.5s;
     cursor: pointer;
 }
-
 .icon_head1{
     position: absolute;
     margin-left: 10px;
@@ -76,5 +70,8 @@
     position: absolute;
     margin-left: 41px;
     margin-top: 13px;
+}
+.h2_h2{
+    padding-bottom: 100px;
 }
 
