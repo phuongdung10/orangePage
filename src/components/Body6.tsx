@@ -87,10 +87,19 @@ function Body6() {
                 <div className="row">
                     <div className="col-xxl-3">
                         <div className="icon24_body6">
-                            <img className="icon25_body6" src={url7} />
-                            <div className="icon36_body6">NEW
+                            <div className="icon36_body6">NEW</div>
+
+
+                            <img src={url7} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
+
+
                             </div>
+
                         </div>
+
                         <img className="icon26_body6" src={url20} />
                         <img className="icon27_body6" src={url20} />
                         <img className="icon28_body6" src={url20} />
@@ -110,50 +119,53 @@ function Body6() {
                     </div>
                     {/* 1111--------------------------------- */}
                     <div className="col-xxl-3">
-                        <div className="icon50_body6">
-                            <div className="icon38_1_body6">
-                                <div className="icon39_body6">HIT</div>
-                                <div className="icon40_body6">
-                                    <a>SALE - 30%</a></div>
-                                <img src={url8} />
-                            </div>
-                            <img src={url20} />
-                            <img src={url20} />
-                            <img src={url20} />
-                            <img src={url20} />
-                            <img src={url20} />
-                            <h1 className="icon31_1_body6">40 Reviews</h1>
-                            <img className="iCon_body6" src={url22} />
-                            <div className="icon33_1_body6">
-                                30.00 SAR
-                            </div>
-                            <div className="icon34_1_body6">
-                                20.00 SAR
-                            </div>
-                            <div className="icon35_body6">
-                                Louis Windmer
-                            </div>
-                            <div className="row">
-                                <div className="col-sm-7">
-                                    <div className="icon51_body6">
-                                        Add to Cart
+                        <div className="icon24_body6">
+                            <div className="icon39_body6">HIT</div>
+                            <div className="icon40_body6">
+                                <a>SALE - 30%</a></div>
 
-                                    </div>
-                                </div>
-                                <div className="col-xxl-5">
-                                    <div className="icon52_body6">
-                                        <i className="bi bi-heart"></i>
-                                    </div>
-                                </div>
+                            <img src={url8} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
+
+
                             </div>
+
                         </div>
+
+                        <img className="icon26_body6" src={url20} />
+                        <img className="icon27_body6" src={url20} />
+                        <img className="icon28_body6" src={url20} />
+                        <img className="icon29_body6" src={url20} />
+                        <img className="icon30_body6" src={url20} />
+                        <h1 className="icon31_body6">40 Reviews</h1>
+                        <img className="icon32_body6" src={url22} />
+                        <div className="icon34_body6">
+                            20.00 SAR
+                        </div>
+                        <div className="icon35_body6">
+                            Louis Windmer
+                        </div>
+
+
+
                     </div>
                     <div className="col-xxl-3">
                         <div className="icon24_body6">
                             <div className="icon36_body6">NEW</div>
 
+
                             <img src={url9} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
+
+
+                            </div>
+
                         </div>
+
                         <img className="icon41_body6" src={url20} />
                         <img className="icon42_body6" src={url20} />
                         <img className="icon43_body6" src={url20} />
@@ -175,10 +187,18 @@ function Body6() {
                             <div className="icon39_body6">HIT</div>
                             <div className="icon40_body6">
                                 <a>SALE - 30%</a></div>
-                            <img src={url10} />
 
+                            <img src={url10} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
+
+
+                            </div>
 
                         </div>
+
+
                         <img className="icon41_body6" src={url20} />
                         <img className="icon42_body6" src={url20} />
                         <img className="icon43_body6" src={url20} />
