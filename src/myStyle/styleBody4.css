@@ -6,15 +6,8 @@
     position: absolute;
 }
 .icon1_body4{
-    animation: blinker 1s linear infinite;
     cursor: pointer;
 }
-@keyframes blinker {
-    50% {
-      opacity: 0;
-    }
-  }
-
 
 .icon2_body4 {
     position: absolute;
@@ -40,8 +33,6 @@
     align-items: center;
     text-align: center;
 }
-
-
 .triangle {
     width: 27px;
     height: 40px;
