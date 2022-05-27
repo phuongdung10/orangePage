@@ -79,7 +79,7 @@ function Body5() {
                     </div>
 
                 </div>
-
+{/* ------------------------------------ */}
                 <div className="row">
                     <div className="col-sm-3">
                         <div className="icon6_body5">
@@ -102,8 +102,6 @@ function Body5() {
                                 <div className="icon10_body4">
                                     <h1 className="icon11_body4">Details</h1>
                                 </div>
-
-
                             </div>
                         </div>
 
@@ -118,12 +116,18 @@ function Body5() {
                 <div className='row'>
                     <div className="col-sm-3">
 
-                        <div className="icon24_body2">
-                            <img className="icon25_body2" src={url23} />
+                    <div className="icon24_body2">
                             <div className="icon36_body2">HIT</div>
                             <div className="icon37_body2">
                                 <a>SALE - 30%</a></div>
 
+                            <img src={url23} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
+
+
+                            </div>
 
                         </div>
                         <img className="icon26_body2" src={url20} />
@@ -147,11 +151,19 @@ function Body5() {
 
                     </div>
                     <div className="col-sm-3">
-                        <div className="icon14_body3">NEW
-                            <div>
-                                <img src={url24} />
+                    <div className="icon24_body2">
+                            <div className="icon14_body3">NEW</div>
+                            
+                            <img src={url24} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
+
+
                             </div>
+
                         </div>
+                      
                         <img className="icon26_body2" src={url20} />
                         <img className="icon27_body2" src={url20} />
                         <img className="icon28_body2" src={url20} />
@@ -172,12 +184,18 @@ function Body5() {
                     </div>
                     <div className="col-sm-3">
 
-                        <div className="icon24_body2">
-                            <img className="icon25_body2" src={url25} />
+                    <div className="icon24_body2">
                             <div className="icon36_body2">HIT</div>
                             <div className="icon37_body2">
                                 <a>SALE - 30%</a></div>
 
+                            <img src={url25} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
+
+
+                            </div>
 
                         </div>
                         <img className="icon26_body2" src={url20} />
@@ -202,11 +220,16 @@ function Body5() {
                     </div>
                     <div className="col-sm-3">
 
-                        <div className="icon24_body2">
-                            <img className="icon25_body2" src={url26} />
+                    <div className="icon24_body2">
                             <div className="icon13_body3">NEW</div>
 
+                            <img src={url26} />
+                            <div className="overlay">
+                                <div className="icon51_body6">Add to Cart</div>
+                                <div className="icon52_body6"> <i className="bi bi-heart"></i></div>
 
+
+                            </div>
 
                         </div>
                         <img className="icon26_body2" src={url20} />
