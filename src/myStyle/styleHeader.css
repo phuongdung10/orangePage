@@ -1,6 +1,8 @@
 .header_0{
     background-color: #023047;
     height: 50px;
+    display: flex;
+    width: 1390px;
 
 
 }
